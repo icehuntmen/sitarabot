@@ -1,0 +1,19 @@
+{
+  "tags": {
+    "allowUnknownTags":true
+  },
+  "source": {
+    "include": ["package.json", "README.md"],
+    "exclude": [ "node_modules","docs","src-docs"],
+    "excludePattern": "(node_modules/|docs|src-docs)"
+  },
+
+  "opts": {
+    "destination": "./docs/unitebot/1.0.0",
+    "encoding": "utf8",
+    "private": true,
+    "recurse": true,
+    "template": "./src-docs/foodoc/template",
+    "tutorials": "./src-docs/tutorials/"
+  }
+}

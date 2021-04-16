@@ -1,0 +1,25 @@
+{
+  "bot": {
+	"ready": {
+      "start": "Start discord bot version: %s",
+      "login": "I am ready! Logged in as %s",
+      "status": "Bot has started, with %s users, in %s channels of %s guilds.",
+      "activity": "Develop"
+    },
+    "mongoose": {
+      "connected": "Mongoose connected MongoDB",
+      "connecting": "Mongoose connecting......",
+      "error": "Mongoose connection error: %s",
+      "disconnected": "Mongoose connection disconnected"
+    }
+  },
+  "commands": {
+    "config": "Setting server config"
+  },
+  "messages": {
+
+  },
+  "guild": {
+    "banned": ""
+  }
+}

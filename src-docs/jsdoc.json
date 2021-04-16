@@ -1,0 +1,61 @@
+{
+  "tags": {
+    "allowUnknownTags":true,
+    "dictionaries": ["jsdoc"]
+  },
+  "source": {
+    "include": ["package.json", "README.md","HISTORY.md"],
+    "exclude": [ "node_modules","docs","src-docs"],
+    "includePattern": ".js$",
+    "excludePattern": "(node_modules/|docs)"
+  },
+  "plugins": [
+    "plugins/markdown",
+    "node_modules/better-docs/category",
+    "node_modules/better-docs/typedef-import",
+    "node_modules/jsdoc-mermaid"
+
+  ],
+  "templates": {
+
+    "useLongnameInNav": true,
+    "showInheritedInNav": true,
+    "better-docs": {
+      "name": "UNITEBOT API",
+      "title"             :  "CODΞ」DΞVS",
+      "hideGenerator": true,
+      "navLinks": [
+        {
+          "label": "Redmine",
+          "href": "https://unitebot.fun"
+        },
+        {
+          "label": "Discord.JS Docs",
+          "href": "https://discord.js.org/#/docs/main/stable/general/welcome"
+        }
+      ]
+    },
+    "footer"                : "Redmine <a href='https://unitebot.fun'>https://unitebot.fun</a>",
+
+    "includeDate"           : true,
+    "navType"               : "inline",
+    "theme"                 : "united",
+    "linenums"              : true,
+    "collapseSymbols"       : true,
+    "inverseNav"            : true,
+    "outputSourceFiles"     : true ,
+    "outputSourcePath"      : true,
+    "dateFormat"            : "dddd, MMMM Do YYYY, h:mm:ss a",
+    "syntaxTheme"           : "dark",
+    "sort"                    : true,
+    "search"                : true
+  },
+  "opts": {
+    "destination": "./docs/",
+    "encoding": "utf8",
+    "private": true,
+    "recurse": true,
+    "template": "./node_modules/better-docs",
+    "tutorials": "./src-docs/tutorials/"
+  }
+}

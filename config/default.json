@@ -1,0 +1,25 @@
+{
+  "botID": "729274484623933480",
+  "guildID":"732197502186684446",
+  "channelID": "748543110971260999",
+  "privateChannelID": "748806273205796935",
+  "port": 5000,
+  "mongoUrl": "mongodb://localhost/unitebot",
+  "dbOptions": {
+      "useNewUrlParser": true,
+      "useUnifiedTopology": true,
+      "autoIndex": true,
+      "useCreateIndex": true,
+      "connectTimeoutMS": 10000,
+      "family": 4,
+      "useFindAndModify": false
+
+},
+  "baseUrl": "http://localhost:5000",
+  "bot": {
+    "prefix": "!",
+    "channelId": "729285797240504381"
+  },
+  "defaultSettings": {}
+
+}

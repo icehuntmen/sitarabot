@@ -1,0 +1,27 @@
+{
+  "starting": {
+    "title": "Настройки и установка"
+  },
+  "manager": {
+    "title": "Управление ботом",
+    "children": {
+        "GuildsManager": {
+          "title": "Управление гильдией"
+        },
+        "PrivateCategory": {
+        "title": "Приватный канал"
+        }
+    }
+  },
+  "commands": {
+    "title": "Команды",
+    "children":{
+      "setupCommand": {
+        "title": "!setup"
+      },
+      "channelCommand": {
+        "title": "!channel"
+      }
+    }
+  }
+}
